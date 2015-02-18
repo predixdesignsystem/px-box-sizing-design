@@ -1,0 +1,27 @@
+{
+  "name": "px-box-sizing-design",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Global box-sizing options for Predix Experience",
+  "main": "_generic.box-sizing.scss",
+  "keywords": [
+    "px",
+    "sass",
+    "box-sizing"
+  ],
+  "license": "Apache 2",
+  "homepage": "git://github.com/inuitcss/generic.box-sizing.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+  }
+}
