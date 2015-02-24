@@ -4,7 +4,7 @@ The Predix Experience `box-sizing` module causes all elements to use the more us
 
 ## Dependency
 
-Px's Box-sizing module depends on one other Px modules:
+Px's Box-sizing module depends on one other Px module:
 
 * [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
 
