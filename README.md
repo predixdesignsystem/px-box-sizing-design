@@ -2,11 +2,10 @@
 
 The Predix Experience `box-sizing` module causes all elements to use the more useful `border-box` box model. This module is a fork of the [inuitcss Box-sizing module](https://github.com/inuitcss/generic.box-sizing).
 
-## Dependencies
+## Dependency
 
-Px's Box-sizing module depends on two other Px and inuitcss modules:
+Px's Box-sizing module depends on one other Px modules:
 
-* [settings-defaults](https://github.com/inuitcss/settings.defaults)
 * [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
 
 ## Upstream dependency
@@ -17,7 +16,7 @@ The Box-sizing module is also an upstream dependency in this meta kit:
 
 ## Installation
 
-Install this module and its dependencies using bower
+Install this module and its dependency using bower:
 
     bower install --save https://github.sw.ge.com/pxc/px-box-sizing-design.git
 
