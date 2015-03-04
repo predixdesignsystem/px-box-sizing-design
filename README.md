@@ -24,7 +24,7 @@ Once installed, `@import` into your project's Sass file in its Generic layer:
 
     @import "../px-box-sizing-design/generic.box-sizing";
 
-See https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
