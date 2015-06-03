@@ -1,28 +1,29 @@
-/*------------------------------------*\
-    #PX-BOX-SIZING-DESIGN
-\*------------------------------------*/
+////
+/// PX-BOX-SIZING-DESIGN
+/// Global box-sizing options
+/// @group px-box-sizing-design
+////
 
 @import "../px-functions-design/tools.functions";
 
-@if import-once('generic.box-sizing') {
+/**
+ * Set the global `box-sizing` state to `border-box`.
+ *
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ * paulirish.com/2012/box-sizing-border-box-ftw
+ */
 
-  /**
-   * Set the global `box-sizing` state to `border-box`.
-   *
-   * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
-   * paulirish.com/2012/box-sizing-border-box-ftw
-   */
+/// @type Boolean [default] - If we have included this file, set a variable to tell the rest of Px that global `box-sizing: border-box` has been set.
+$inuit-global-border-box  : true;
+
+@if import-once('generic.box-sizing') {
   
   html {
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box;
+    box-sizing: border-box;
   }
   
   :host {/*! Comment to prevent cssmin munging this rule with html above and borking Safari */
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box;
+    box-sizing: border-box;
   }
   
   * {
@@ -30,19 +31,9 @@
       &,
       &:before,
       &:after {
-          -webkit-box-sizing: inherit;
-             -moz-box-sizing: inherit;
-                  box-sizing: inherit;
-          }
+        box-sizing: inherit;
+      }
   
   }
-  
-  
-  
-  
-  
-  // If we have included this file, set a variable to tell the rest of the
-  // framework that global `box-sizing: border-box` has been set.
-  $inuit-global-border-box: true;
 
 }
