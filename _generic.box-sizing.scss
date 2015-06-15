@@ -4,8 +4,6 @@
 /// @group px-box-sizing-design
 ////
 
-@import "../px-functions-design/tools.functions";
-
 /**
  * Set the global `box-sizing` state to `border-box`.
  *
@@ -15,25 +13,21 @@
 
 /// @type Boolean [default] - If we have included this file, set a variable to tell the rest of Px that global `box-sizing: border-box` has been set.
 $inuit-global-border-box  : true;
+  
+html {
+  box-sizing: border-box;
+}
 
-@if import-once('generic.box-sizing') {
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  :host {/*! Comment to prevent cssmin munging this rule with html above and borking Safari */
-    box-sizing: border-box;
-  }
-  
-  * {
-  
-      &,
-      &:before,
-      &:after {
-        box-sizing: inherit;
-      }
-  
-  }
+:host {/*! Comment to prevent cssmin munging this rule with html above and borking Safari */
+  box-sizing: border-box;
+}
+
+* {
+
+    &,
+    &:before,
+    &:after {
+      box-sizing: inherit;
+    }
 
 }
