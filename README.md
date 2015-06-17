@@ -26,9 +26,7 @@ Install this module and its dependency using bower:
 
 Once installed, `@import` into your project's Sass file in its Generic layer:
 
-    @import "../px-box-sizing-design/generic.box-sizing";
-
-See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+    @import "px-box-sizing-design/_generic.box-sizing.scss";
 
 ## Import once
 

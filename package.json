@@ -1,6 +1,6 @@
 {
   "name": "px-box-sizing-design",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Global box-sizing options for Predix Experience",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.build.ge.com/PXd/px-box-sizing-design.git"
+    "url": "https://github.build.ge.com/PXd/px-box-sizing-design.git"
   },
   "author": "General Electric",
   "license": "Apache 2",
