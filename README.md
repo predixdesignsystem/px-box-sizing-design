@@ -2,9 +2,7 @@
 
 The Predix Experience `box-sizing` module causes all elements to use the more useful `border-box` box model. This module is a fork of the [inuitcss Box-sizing module](https://github.com/inuitcss/generic.box-sizing).
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-box-sizing-design/sassdoc
 
 ## Dependency
 
