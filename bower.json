@@ -1,6 +1,6 @@
 {
   "name": "px-box-sizing-design",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -14,7 +14,7 @@
   ],
   "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-box-sizing-design.git",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
