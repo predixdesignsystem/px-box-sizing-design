@@ -1,6 +1,10 @@
+v0.2.8
+=============================
+* Fixed `:host` cssmin parsing bug in Firefox and Safari
+
 v0.2.7
 =============================
-* updated oss notice and readme file to point to gh-pages
+* Updated oss notice and readme file to point to gh-pages
 
 v0.2.6
 =============================
