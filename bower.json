@@ -12,7 +12,6 @@
     "sass",
     "box-sizing"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-box-sizing-design.git",
   "private": false,
   "ignore": [
