@@ -1,7 +1,7 @@
 {
   "name": "px-box-sizing-design",
-  "version": "0.2.8",
-  "description": "Global box-sizing options for Predix Experience",
+  "version": "0.2.9",
+  "description": "Global box-sizing options for Predix UI",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

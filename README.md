@@ -18,8 +18,8 @@ There are no flags to set before importing this module in your project Sass file
 
 Import the module by placing this code into the `Objects` layer of your project Sass file:
 
-     @import "px-box-sizing-design/_generic.box-sizing.scss";
-     
+     @import 'px-box-sizing-design/_generic.box-sizing.scss';
+
 ## Usage
 
 Importing the module will set the following variable flag to `true`:

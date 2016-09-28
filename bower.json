@@ -1,11 +1,11 @@
 {
   "name": "px-box-sizing-design",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
   ],
-  "description": "Global box-sizing options for Predix Experience",
+  "description": "Global box-sizing options for Predix UI",
   "main": "_generic.box-sizing.scss",
   "keywords": [
     "px",
