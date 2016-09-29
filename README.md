@@ -1,42 +1,33 @@
-# Box-sizing
+# px-box-sizing-design
 
-The Predix UI `box-sizing` module causes all elements to use the more useful `border-box` box model. This module is a fork of the [inuitcss Box-sizing module](https://github.com/inuitcss/generic.box-sizing).
-
-
-## Dependency
-
-Predix UI's Box-sizing module depends on one other Px module:
-
-* [px-functions-design](https://github.com/PredixDev/px-functions-design)
-
-## Upstream dependency
-
-The Box-sizing module is also an upstream dependency in this meta kit:
-
-* [px-starter-kit-design](https://github.com/PredixDev/px-starter-kit-design)
+The box-sizing module sets the `box-sizing` property of all elements to `border-box`. Using the `border-box` model makes it easier to understand how changes to an element's spacing properties like `margin` or `padding` will impact the flow of elements. [Read more about `box-sizing` on the Mozilla Developer Network website.](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
 ## Installation
 
-Install this module and its dependency using bower:
+Install the module and any dependencies using Bower. Run this task from the command line inside your project folder:
 
     bower install --save px-box-sizing-design
 
-Once installed, `@import` into your project's Sass file in its Generic layer:
+## Enable and Import
 
-    @import "px-box-sizing-design/_generic.box-sizing.scss";
+### Enable Flags
 
-## Import once
+There are no flags to set before importing this module in your project Sass file.
 
-All rulesets are wrapped in the following `@if` statement:
+### Import Sass
 
-    @if import-once('generic.box-sizing') { ... }
+Import the module by placing this code into the `Objects` layer of your project Sass file:
+
+     @import 'px-box-sizing-design/_generic.box-sizing.scss';
 
 ## Usage
 
-By importing the Box-sizing module this variable flag is set to true:
+Importing the module will set the following variable flag to `true`:
 
-    $inuit-global-border-box
+     $intuit-global-border-box : true
 
-This tells other modules you are using the `border-box` CSS box model.
+This will tell other modules that you are using the `border-box` CSS box model.
 
-View the full API [here](http://predixdev.github.io/px-box-sizing-design/sassdoc/)
+## Dependencies
+
+This module doesn't have any dependencies.
