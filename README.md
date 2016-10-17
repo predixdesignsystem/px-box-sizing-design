@@ -2,31 +2,47 @@
 
 The box-sizing module sets the `box-sizing` property of all elements to `border-box`. Using the `border-box` model makes it easier to understand how changes to an element's spacing properties like `margin` or `padding` will impact the flow of elements. [Read more about `box-sizing` on the Mozilla Developer Network website.](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
 
-## Installation
+**px-box-sizing-design is a Predix UI CSS module.** You can find a demonstration and full documentation on the [Predix UI catalog](https://predixdev.github.io/predix-ui/?show=px-box-sizing-design&type=css]).
 
-Install the module and any dependencies using Bower. Run this task from the command line inside your project folder:
+## Install the module
 
-    bower install --save px-box-sizing-design
+To use the toggle module, you need to install it in your project using Bower. Run this task on the command line from inside your project folder:
 
-## Enable and Import
+```
+bower install --save px-box-sizing-design
+```
 
-### Enable Flags
+## Import it in your Sass
+
+The toggle module won't do anything until you import and configure it in your project Sass file. Follow these steps to import it:
+
+### 1. Enable Flags
 
 There are no flags to set before importing this module in your project Sass file.
 
-### Import Sass
+### 2. Customize Styles
 
-Import the module by placing this code into the `Objects` layer of your project Sass file:
+There are no style variables to set before importing this module in your project Sass file.
 
-     @import 'px-box-sizing-design/_generic.box-sizing.scss';
+### 3. Import Sass File
 
-## Usage
+Import the module by placing this code into the **Generic** layer of your project Sass file:
 
-Importing the module will set the following variable flag to `true`:
+```
+@import 'px-box-sizing-design/_generic.box-sizing.scss';
+```
 
-     $intuit-global-border-box : true
+## Use it in your project
 
-This will tell other modules that you are using the `border-box` CSS box model.
+Importing this module in your Sass will automatically set the following variable flag to `true` for other components:
+
+```
+$intuit-global-border-box : true;
+```
+
+This will tell other modules that you are using the `border-box` CSS box model. You don't have to do anything else.
+
+The component will also set all elements to use `box-sizing: border-box`.
 
 ## Dependencies
 
