@@ -1,3 +1,7 @@
+v1.0.0
+==================
+* Bump to pick up design repo dependencies
+
 v0.2.19
 ==================
 * update demo page with px-demo classes
