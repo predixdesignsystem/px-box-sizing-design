@@ -1,3 +1,7 @@
+v1.0.1
+==================
+* update demo to use unique name
+
 v1.0.0
 ==================
 * Bump to pick up design repo dependencies
