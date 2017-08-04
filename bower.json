@@ -1,6 +1,6 @@
 {
   "name": "px-box-sizing-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
@@ -34,7 +34,8 @@
   ],
   "devDependencies": {
     "px-starter-kit-design": "^1.0.0",
-    "px-sass-doc": "^1.0.0"
+    "px-sass-doc": "^1.0.0",
+    "px-demo": "^2.2.0"
   },
   "resolutions": {
     "webcomponentsjs": "^0.7.24"
