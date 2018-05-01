@@ -2,8 +2,8 @@
     {
         "description": "",
         "commentRange": {
-            "start": 14,
-            "end": 14
+            "start": 30,
+            "end": 30
         },
         "context": {
             "type": "variable",
@@ -11,8 +11,8 @@
             "value": "true",
             "scope": "private",
             "line": {
-                "start": 15,
-                "end": 15
+                "start": 31,
+                "end": 31
             }
         },
         "type": "Boolean [default] - If we have included this file, set a variable to tell the rest of Px that global `box-sizing: border-box` has been set.",
